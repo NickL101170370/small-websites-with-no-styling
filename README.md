@@ -7,4 +7,4 @@ I wanted to have a place for all of my small website projects that I made while 
 
 These websites do not have any css or javascript attached to them, it is all purely HTML
 
-I used the free full-stack certification that freecodecamp.org made to guide my learning.
+I used the free full-stack certification that freecodecamp.org made to guide my learning. As such, some of the photos will be from freecodecamp.org.
