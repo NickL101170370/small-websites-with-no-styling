@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+        name="description"
+        content="This is a sample website created to demonstrate HTML boilerplate structure." />
+    <title>Survey Form for SU</title>
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/579/430/png-clipart-steven-universe-garnet-stevonnie-gemstone-crystal-gems-purple-sphere.png" type="image/png">
+    <link rel="stylesheet" href=" " />
+  </head>
+  <body>
+    <h1 id="title">Demographic Survey for Viewers of Steven Universe</h1>
+    <p id="description">Please input your demographic information below.</p>
+        <form id="survey-form">
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label for="name" id="name-label">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Last Name not Needed"
+                    required />
+                <br />
+
+                <label for="email" id="email-label">Email:</label>
+                <input 
+                    type="email"
+                    id="email"
+                    placeholder="example@email.com"
+                    required />
+
+                <br />
+
+                <label for="number" id="number-label">Age (Optional):</label>
+                <input 
+                    type="number"
+                    id="number"
+                    min="1"
+                    max ="120"
+                    placeholder="Enter Your Age" />
+                <br />
+            </fieldset>
+
+            <fieldset>
+            <legend>Did you enjoy watching Steven Universe?</legend>
+            <input id="yes-option" value="yes" type="radio" name="watch-steven-universe" />
+            <label for="yes-option">Yes</label>
+            <input id="no-option" value="no" type="radio" name="watch-steven-universe" />
+            <label for="no-option">No</label>
+            </fieldset>
+
+            <label for="dropdown">Please select your sexual orientation</label>
+            <select id="dropdown">
+                <option value="heterosexual">Heterosexual</option>
+                <option value="homosexual">Homosexual</option>
+                <option value="bisexual">Bisexual</option>
+                <option value="asexual">Asexual</option>
+                <option value="exploring">Exploring</option>
+                <option value="other">Other</option>
+            </select>
+            <br />
+
+            <fieldset>
+                <legend>Provide your race/ethnicity</legend>
+                <label for="white">White</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="white"
+                    value="white" />
+                <label for="black">Black</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="black"
+                    value="black" />
+                <label for="asian">Asian</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="asian"
+                    value="asian" />
+                <label for="hispanic">Hispanic/Latino</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="hispanic"
+                    value="hispanic" />
+                    <label for="native">Native American</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="native"
+                    value="native" />
+                <label for="other">Other</label>
+                <input
+                    type="checkbox"
+                    name="race" 
+                    id="other"
+                    value="other" />
+            </fieldset>
+
+            <fieldset>
+                <label for="comments">Other Comments?</label>
+                <textarea id="comments" name="comments" cols="50" rows="1">Enter anything you feel is important :)</textarea>
+            </fieldset>
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+  </body>
+</html>
