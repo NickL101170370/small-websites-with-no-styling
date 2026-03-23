@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+        name="description"
+        content="Lab for HTML: Checkout Page." />
+    <title>Checkout Page</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href=" " />
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <image src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="An unsolved Rubik's cube" />
+        <p>Rubik's Cube</p>
+        <p>$5.99</p>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Name on Card <span aria-hidden="true">*</span>
+            </label>
+            <input id="card-name" name="card-name" type="text" required />
+            <br>
+            <label for="age">Age <span aria-hidden="true">*</span>
+            </label>
+            <input id="age" name="age" type="number" min="0" max="100" required />
+            <br>
+            <label for="card-number"><span aria-hidden="true">*</span></label>
+            <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" id="card-number" name="card-number" aria-describedby="card-number-help" required />
+            <p id="card-number-help">XXXX-XXXX-XXXX-XXXX</p>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+  </body>
+</html>
